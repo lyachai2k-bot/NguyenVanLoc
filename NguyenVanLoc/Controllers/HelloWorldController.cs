@@ -10,7 +10,7 @@ namespace NguyenVanLoc.Controllers
             
             public string Index()
             {
-                return "Hello Cô Phương...";
+                return "Hello Cô Phương.!!";
             }
             
 
