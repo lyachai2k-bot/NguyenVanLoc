@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace WebApplication2.Controllers
+namespace NguyenVanLoc.Controllers
 {
     public class GreetController : Controller
     {
