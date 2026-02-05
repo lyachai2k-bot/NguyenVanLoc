@@ -25,5 +25,10 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
 
+app.MapControllerRoute(
+    name: "my-route-3",
+    pattern: "Hi/{fname}-{lname}",
+    defaults: new { controller = "Default", action = "Index" });
+
 
 app.Run();
